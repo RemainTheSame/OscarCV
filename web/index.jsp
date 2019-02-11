@@ -42,6 +42,38 @@
   <main class="middle">
     <div class="container">
       middle content is here
+
+      <!-- Introduction + pic -->
+      <div class="upper-middle">
+
+        <img src="">
+
+        <section>
+          <h2>This is the exciting header!</h2>
+          <p>Here is some text about me and what I do and what I like and what kind of things I have created and so on</p>
+        </section>
+        
+      </div>
+      <!-- Check out pages -->
+      <div class="lower-middle">
+        <h1>Check out this!</h1>
+        <img src="">
+        <img src="">
+        <img src="">
+        <section>
+          <h3>Header1</h3>
+          img 1 text
+        </section>
+        <section>
+          <h3>Header2</h3>
+          img 2 text
+        </section>
+        <section>
+          <h3>Header3</h3>
+          img 3 text
+        </section>
+      </div>
+
     </div>
   </main>
 

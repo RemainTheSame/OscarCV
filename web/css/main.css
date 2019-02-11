@@ -23,9 +23,68 @@ a{
 
 }
 
-.middle {
-    background: #fff;
+.header{
+    /* Header follows when scrolling */
+    position: fixed;
+    width: 100%;
+}
 
+.middle {
+    /*background: #b8d5e0;*/
+    background: rebeccapurple;
+
+}
+
+.middle h2,h3{
+    font-weight: bold;
+}
+
+.upper-middle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+
+}
+
+.upper-middle img{
+    height: 300px;
+    width: 400px;
+    margin: 60px 0px 60px 0px;
+}
+
+.upper-middle section{
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.lower-middle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    justify-content: space-evenly;
+}
+
+.lower-middle img{
+    width: 25%;
+    margin: 60px 0px 60px;
+    height: 250px;
+}
+
+.lower-middle section{
+    width: 25%;
+    margin: 0px 0px 60px;
+}
+
+.lower-middle h1{
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 .hero {
@@ -33,7 +92,7 @@ a{
     background: #333 url(../res/background-blur-clean-531880.jpg) no-repeat 50% 50%;
     /* Stretches image to cover container */
     background-size: cover;
-    height: 465px;
+    height: 520px;
 
     /* Text related */
     color: #fff;
@@ -122,9 +181,9 @@ a{
 
 body *{
     /* !!! Borders for visual clarification !!! */
-    /*border: solid deeppink 1px;
+    border: solid deeppink 1px;
 
-*/
+
 }
 
 body {
