@@ -31,7 +31,8 @@ a{
 
 .middle {
     /*background: #b8d5e0;*/
-    background: rebeccapurple;
+    --middle-bg-color: white;
+    background: var(--middle-bg-color);
 
 }
 
@@ -45,7 +46,7 @@ a{
     flex-wrap: wrap;
     flex-basis: 40%;
     justify-content: space-evenly;
-    background: radial-gradient(aquamarine, rebeccapurple);
+    background: radial-gradient(aquamarine, var(--middle-bg-color));
 
 }
 
@@ -68,7 +69,7 @@ a{
     flex-basis: 40%;
     justify-content: space-evenly;
     /* Cool multi-gradient */
-    background: linear-gradient(to right, rebeccapurple ,green, blue, red, rebeccapurple);
+    background: linear-gradient(to right, var(--middle-bg-color) ,green, blue, red, var(--middle-bg-color));
 }
 
 .lower-middle img{
