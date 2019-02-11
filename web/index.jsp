@@ -41,8 +41,6 @@
 
   <main class="middle">
     <div class="container">
-      middle content is here
-
       <!-- Introduction + pic -->
       <div class="upper-middle">
 

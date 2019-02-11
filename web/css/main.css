@@ -45,6 +45,7 @@ a{
     flex-wrap: wrap;
     flex-basis: 40%;
     justify-content: space-evenly;
+    background: radial-gradient(aquamarine, rebeccapurple);
 
 }
 
@@ -66,6 +67,8 @@ a{
     flex-wrap: wrap;
     flex-basis: 40%;
     justify-content: space-evenly;
+    /* Cool multi-gradient */
+    background: linear-gradient(to right, rebeccapurple ,green, blue, red, rebeccapurple);
 }
 
 .lower-middle img{
