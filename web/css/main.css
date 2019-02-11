@@ -1,0 +1,215 @@
+a{
+    /* Removes link underlines */
+    text-decoration: none;
+    position: relative;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header,
+.footer {
+    /* Background can be exchanged for image */
+    background: #15181f;
+    color: #fff;
+
+}
+
+.middle {
+    background: #fff;
+
+}
+
+.hero {
+    /* Image as background, placed in middle of block through "50% 50%" */
+    background: #333 url(../res/background-blur-clean-531880.jpg) no-repeat 50% 50%;
+    /* Stretches image to cover container */
+    background-size: cover;
+    height: 465px;
+
+    /* Text related */
+    color: #fff;
+    text-align: center;
+
+    padding-top: 31px;
+
+
+}
+ /* what ".x .y{..." means:
+
+  "y type in x container"
+
+  "h1 element in hero container"
+
+  */
+.hero h1{
+    font-size: 52px;
+    font-weight: bold;
+    /* Margin on top to bring text lower down */
+    margin: 200px 0 30px;
+
+}
+
+.hero p{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 600;
+    max-width: 715px;
+    margin: 0 auto 51px;
+}
+
+.hero p strong{
+    font-weight: 700;
+}
+
+.logo{
+    /* float left wraps elements around current one */
+    float: left;
+    margin: 19px 17px 0 0;
+    background-color: white;
+    border-radius: 2px;
+
+}
+
+.slogan {
+    float: left;
+    margin-top: 22px;
+    font: italic 16px "Times New Roman", Times, Georgia, serif;
+    color: rgba(255, 255, 255, .35);
+
+}
+
+/* Nav */
+.nav {
+    /* Place itself to the right in container */
+    float: right;
+
+}
+.nav li {
+    /* li's added left-to-right */
+    float: left;
+    /* Border */
+    /* TODO Fix overlapping border color */
+    border-left: 1px solid gold;
+    border-right: 1px solid gold;
+}
+.nav a {
+    display: block;
+    line-height: 62px;
+    padding: 0 24px 0 53px;
+    color: white;
+    /* Transition -
+    transition: <property> <duration> <timing-function> <delay>; */
+    transition: opacity 0.2s;
+
+}
+
+.nav a:after{
+    content: '';
+    background:  no-repeat;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+}
+
+body *{
+    /* !!! Borders for visual clarification !!! */
+    /*border: solid deeppink 1px;
+
+*/
+}
+
+body {
+     font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+     color: #55606e;
+ }
+
+.nav .home-nav a:after{
+ background: url("../res/icons/home_icon.png");
+    width: 19px;
+    height: 19px;
+}
+.nav .web-nav a:after{
+    background: url("../res/icons/webproj_icon.png");
+    width: 19px;
+    height: 19px;
+}
+.nav .profile-nav a:after{
+    background: url("../res/icons/profile_icon.png");
+    width: 19px;
+    height: 19px;
+}
+.nav .contact-nav a:after{
+    background: url("../res/icons/contact_icon.png");
+    width: 19px;
+    height: 19px;
+}
+.nav .game-nav a:after{
+    background: url("../res/icons/games_icon.png");
+    width: 19px;
+    height: 19px;
+}
+
+/* Interaction */
+.nav a:hover{
+    opacity: 0.5;
+}
+
+
+.nav a:active{
+    /* Makes smaller when pressed */
+    transform: scale(0.9);
+}
+
+/* General button styles */
+.btn{
+    display: inline-block;
+    border-radius: 4px;
+    line-height: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 55px;
+    margin: 0 11px;
+    /* Transition time */
+    /*transition: opacity 0.2s;*/
+
+}
+
+.btn-green{
+    background-color: green;
+    /* Box Shadow:
+
+     box-shadow: x-offset, y-offset, (blur-radius, spread-radius), color
+
+     */
+    box-shadow: 5px 4px 0 rebeccapurple;
+}
+
+.btn-blue{
+    background-color: blue;
+    box-shadow: 0px 4px 0 rebeccapurple;
+}
+
+.btn-red{
+    background-color: red;
+    box-shadow: -5px 4px 0 rebeccapurple;
+}
+
+.btn:hover{
+    /*opacity: 0.8;*/
+    transform: scale(1.04);
+    transition: 0.3s;
+}
+
+.btn:active{
+    transform: scale(0.97);
+}
