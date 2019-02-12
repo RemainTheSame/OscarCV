@@ -27,6 +27,8 @@ a{
     /* Header follows when scrolling */
     position: fixed;
     width: 100%;
+    /* Sit in front of all other elements */
+    z-index: 1;
 }
 
 .middle {

@@ -50,7 +50,8 @@
           <h2>This is the exciting header!</h2>
           <p>Here is some text about me and what I do and what I like and what kind of things I have created and so on</p>
         </section>
-        
+
+
       </div>
       <!-- Check out pages -->
       <div class="lower-middle">
